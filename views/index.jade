@@ -1,0 +1,81 @@
+extends layout
+
+block content
+    header
+        nav.navbar.navbar-dark.blue-grey
+            button.navbar-toggler.hidden-sm-up(type="button", data-toggle="collapse", data-target="#collapseEx")
+                i.fa.fa-bars
+                
+            div.container
+                div.collapse.navbar-toggleable-xs#collapseEx
+                    a.navbar-brand(target="_blank", href="#") Sonya Moisset
+                    ul.nav.navbar-nav
+                        li.nav-item.active
+                            a.nav-link(target="_blank", href="#") Home
+                                span.sr-only (current)
+                        li.nav-item
+                            a.nav-link(target="_blank", href="#") Portfolio
+                        li.nav-item
+                            a.nav-link(target="_blank", href="#") About
+                    
+                    form.form-inline
+                        input.form-control(type="text", placeholder="Search")
+
+    main
+        div.container
+            div.row
+                diw.col-md-12
+                    div.jumbotron
+                        h2.h2-reponsive Lorem ipsum dolor sit amet
+                        br
+                        p Lorem ipsum dolor sit amet, at has vidit docendi.
+                        hr
+                        p Lorem ipsum dolor sit amet, at has vidit docendi, ea ius odio verear.
+                        a.btn.btn-primary.btn-stc(target="_blank", href="#") Download
+                            i.fa.fa-download.right
+                        a.btn.btn-default.btn-ptc(target="_blank", href="#") Learn more
+                            i.fa.fa-book.right
+
+            hr.extra-margins
+            
+            div.row
+                div.col-lg-4
+                    div.card
+                        div.view.overlay.hm-white-slight
+                            img.img-fluid(src="images/img-01.jpg", alt="")
+                            a(href="#")
+                                div.mask
+                                
+                        div.card-block
+                            h4.card-title Card title
+                            p.card-text Lorem ipsum dolor sit amet, at has vidit docendi, ea ius odio verear. Ut verear civibus aliquando nam. Nec voluptua omittantur theophrastus et.
+                            a.btn.btn-primary(href="#") Read more
+                            
+                div.col-lg-4
+                    div.card
+                        div.view.overlay.hm-white-slight
+                            img.img-fluid(src="images/img-02.jpg", alt="")
+                            a(href="#")
+                                div.mask
+                                
+                        div.card-block
+                            h4.card-title Card title
+                            p.card-text Lorem ipsum dolor sit amet, at has vidit docendi, ea ius odio verear. Ut verear civibus aliquando nam. Nec voluptua omittantur theophrastus et.
+                            a.btn.btn-primary(href="#") Read more
+                            
+                div.col-lg-4
+                    div.card
+                        div.view.overlay.hm-white-slight
+                            img.img-fluid(src="images/img-03.jpg", alt="")
+                            a(href="#")
+                                div.mask
+                                
+                        div.card-block
+                            h4.card-title Card title
+                            p.card-text Lorem ipsum dolor sit amet, at has vidit docendi, ea ius odio verear. Ut verear civibus aliquando nam. Nec voluptua omittantur theophrastus et.
+                            a.btn.btn-primary(href="#") Read more
+
+    footer.page-footer.center-on-small-only.blue-gray               
+        div.footer-copyright
+            div.container-fluid
+                small 2015 Copyright
